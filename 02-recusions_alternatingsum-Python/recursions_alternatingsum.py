@@ -4,5 +4,11 @@
 # (that is, 3). If L is empty, return 0. You may not use loops/iteration in this problem.
 
 
-def fun_recursions_alternatingsum(l): 
-	return 0
+def fun_alternatingsum(a):
+    altSum=0
+    for i in range(len(a)):
+        if i%2==0:  #i  takes index not a value 
+            altSum+=a[i]
+        else:
+            altSum-=a[i]
+    return altSum
