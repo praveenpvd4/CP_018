@@ -4,5 +4,5 @@
 # number n is a product of x and (x+1).
 
 def nthpronicnumber(n):
-	# Your code goes here
-	pass
+    	# Your code goes here
+	return n*(n+1)
